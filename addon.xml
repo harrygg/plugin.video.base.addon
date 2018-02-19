@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.video.base.addon" name="baseaddon" version="0.0.1" provider-name="HarryDoubleG">
+  <requires>
+  	<import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.kodibgcommons" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary lang="bg">Добавка за </summary>
+  	<summary lang="en">Addon for </summary>
+	<description lang="bg">Добавка за </description>
+	<description lang="en">Addon for </description>  	
+  	<disclaimer lang="bg">Някои елементи на тази приставка, може да нямат уредени авторски права в България.</disclaimer>
+  	<disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+  	<language>bg,en</language>
+  	<platform>all</platform>
+  	<forum>http://kodibg.org/forum/</forum>
+  	<website></website>
+  	<email>harrygg@gmail.com</email>
+  </extension>
+</addon>
