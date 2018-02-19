@@ -15,7 +15,7 @@ def index():
   xbmcplugin.addDirectoryItem(int(sys.argv[1]), url, li, True)
 
   li = xbmcgui.ListItem("Playable item")
-  url = "http://playable.com/video.mp4"
+  url = "http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-89.mp4"
   li.setInfo( type = "Video", infoLabels = { "Title" : "Playable video"} )
   li.setProperty("IsPlayable", str(True))
   xbmcplugin.addDirectoryItem(int(sys.argv[1]), url, li)
